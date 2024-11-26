@@ -123,6 +123,25 @@
 
           
  
+<section id="contacto">
+    <!--FORMULARIO DE CONTACTO -->
+    <h2>contacto</h2>
+    <form  onsubmit="return validarFormulario()">
+   <label>Nombre:</label>
+ <input type="text" name="nombre" id="nombre">
+ <span id="errorNombre" class="error"></span>
+   <label>Correo Electronico:</label>
+   <input type="email" id="email" name="email">
+   <span id="errorEmail" class="error" ></span>
+   <label>Mensaje: </label>
+     <textarea id="mensaje" name="mensaje" id="mensaje"></textarea>
+  <span id="errorMensaje" class="error"></span>
+           
+   <br> <br>
+   <button type="submit">Enviar</button>
+   </form>
+   
+ </section>
 
 
 </body>
