@@ -1,4 +1,3 @@
-
 function validarFormulario(){
 	//Limpiar error previo
 	document.getElementById('errorNombre').textContent = "";
