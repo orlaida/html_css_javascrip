@@ -1,1 +1,103 @@
+/*ESTILOS GENERALES DE LA PAGINA*/
 
+body{
+
+    font-family: Arial, Helvetica, sans-serif; 
+ 
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+ color: #333;
+ }
+ 
+ 
+ header{
+ 
+     background-color: #0a15ad;
+     color: white;
+ text-align: center;
+ padding: 20px;
+ }
+ 
+ section{
+ 
+     margin: 20px;
+     padding: 20px;
+     background-color: #fff;
+     border-radius: 1opx;
+     box-shadow:0 4px 8px rgb(0, 0,0,0.1);
+ }
+ 
+ h2{
+ background-color: #0a15ad;
+ color: white;
+ 
+ }
+ 
+ ul li{
+ 
+ background-color: #333;
+ margin:5px 0 ;
+ padding: 10px;
+ border-radius: 5px;
+ color: white;
+ 
+ }
+ 
+ 
+ 
+ table{
+     width: 70%;
+     border-collapse: collapse;
+     margin:10px 0;
+     
+     }
+     th,td{
+     border: 1px solid;
+     padding: 8px;
+     }
+     th{
+     background-color:#0a15ad;
+     
+     }
+ 
+     #contacto {
+     padding: 20px;
+     background-color: #f9f9f9;
+     border-radius: 8px;
+     max-width: 800px;
+     margin: 3cqw;  /* Corregido: margen superior de 10px y centrado automático */
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+     
+ #contacto input,textarea {
+     width: 90%;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     font-size: 13px;
+    margin: 10px;
+ }
+ 
+ 
+ .error{
+     color: red;
+ }
+ 
+ button {
+     padding: 10px 20px;
+     background-color: #0a15ad;
+     color: white;
+     border: none;
+     cursor: pointer;
+ }
+     
+ button:hover{
+     background-color: #0a15ad;
+ }
+ #footer{
+     background-color: #0a15ad;
+     color: white;
+     text-align: center;
+     padding: 1em;
+ }
